@@ -1,0 +1,46 @@
+body {
+    background: url("./../../coffee/img/background.jpg");
+    background-size: cover;
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 50%;
+    color: white;
+}
+
+h1 {
+    margin: 10px 0;
+    /* display: inline-block; */
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border-style: none;
+    color: white;
+    background-color: blue;
+    transition: all 0.4s ease-in-out;
+}
+
+#increment-btn {
+    background-color: green;
+}
+
+#save-btn {
+    background-color: orange;
+}
+
+#save-btn:hover,#increment-btn:hover {
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+#save-btn:active,
+#increment-btn:active {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+

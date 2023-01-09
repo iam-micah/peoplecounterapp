@@ -1,7 +1,6 @@
 body {
-    background: url("./../../coffee/img/background.jpg");
+    background: url("./background.jpg");
     background-size: cover;
-    /* margin: auto; */
     text-align: center;
     margin-top: 50%;
     color: white;
@@ -9,7 +8,6 @@ body {
 
 h1 {
     margin: 10px 0;
-    /* display: inline-block; */
 }
 
 h2 {
